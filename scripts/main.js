@@ -2,14 +2,13 @@
     'use strict';
     var FORM_SELECTOR = '[data-coffee-order="form"]';
     var CHECKLIST_SELECTOR = '[data-coffee-order="checklist"]';
-    // var SERVER_URL = 'http://co.audstanley.com/coffeeorders';
-    var SERVER_URL = 'http://coffeerun-v2-rest-api.herokuapp.com/api/coffeeorders';
+    // var SERVER_URL = 'http://coffeerun-v2-rest-api.herokuapp.com/api/coffeeorders';
     var FIREBASE_SERVER_URL = 'http://coffeerun-7c0ff.firebaseapp.com';
 
     var App = window.App;
     var Truck = App.Truck;
-    var DataStore = App.DataStore;
-    var RemoteDataStore = App.RemoteDataStore;
+    // var DataStore = App.DataStore;
+    // var RemoteDataStore = App.RemoteDataStore;
     var FirebaseDataStore = App.FirebaseDataStore;
     var FormHandler = App.FormHandler;
     var Validation = App.Validation;

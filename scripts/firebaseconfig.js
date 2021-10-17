@@ -7,9 +7,9 @@
 
 (function (window) {
     'use strict';
-  //   var App = window.App || {};
+    var App = window.App || {};
     
-      window.FirebaseConfig = {
+    window.FirebaseConfig = {
         apiKey: "AIzaSyAolST0lpHmmvecDMH0qDc0XJASPkV6zX8",
         authDomain: "coffeerun-7c0ff.firebaseapp.com",
         databaseURL: "https://coffeerun-7c0ff-default-rtdb.firebaseio.com",
@@ -21,7 +21,6 @@
       };
      App.FirebaseConfig = FirebaseConfig;
      firebase.initializeApp(App.FirebaseConfig);
-     
      window.App = App;
   
   })(window);

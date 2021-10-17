@@ -1,2 +1,5 @@
 #Cloudstation files
 .DS_Store
+
+#firebase stuff
+node_modules
